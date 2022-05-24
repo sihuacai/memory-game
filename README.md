@@ -4,9 +4,9 @@ Time spent: 4 hours spent in total
 
 Link to project: [Memory Game (Sihua Cai)](https://glitch.com/edit/#!/occipital-determined-cerise?path=script.js%3A14%3A0)
 
-## Required Functionality
+Functionality
 
-The following **required** functionality has been implemented: 
+The following functionality has been implemented: 
 
 * [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
 * [x] "Start" button toggles between "Start" and "Stop" when clicked. 
@@ -37,22 +37,29 @@ I would like to eventually implement the following features:
 * [Button Functionality](http://g.recordit.co/07ozxK70ib.gif)
 ![Button Functionality](http://g.recordit.co/07ozxK70ib.gif)
 
+## Reflections
+
 Outside Resources Referenced: 
+
     * [How to center a CSS element](https://stackoverflow.com/questions/34580572/center-h1-in-the-middle-of-screen)
     * [How to create round buttons ](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
     * [For loop in JavaScript](https://www.w3schools.com/js/js_loop_for.asp)
     * [Random number generator in JavaScript](https://www.w3schools.com/js/js_random.asp)
 
+
 Challenge(s):
-    > One of the additional features that I wanted to add was having the computer pick a new pattern every time. My general idea was to have a for loop to append a randomly generated number to the pattern array 8 times (as  you can maybe tell, the Python background is showing). However, what I failed to realize was that `Math.floor(Math.random() * n)` returns a number from the range `[0, n)`, so when 0 was selected, the buttons in the program did not play. I was only able to realize this after experimenting in a browser version of JavaScript Playground, where I used `console.log()` to print elements of the `pattern` array and consequently found my error. From there, I updated the random number generator to be `Math.floor(Math.random() * n)` to generate random integers from `[1, 2, 3, 4, 5]` for my 5 buttons.
+
+   > One of the additional features that I wanted to add was having the computer pick a new pattern every time. My general idea was to have a for loop to append a randomly generated number to the pattern array 8 times (as  you can maybe tell, the Python background is showing). However, what I failed to realize was that `Math.floor(Math.random() * n)` returns a number from the range `[0, n)`, so when 0 was selected, the buttons in the program did not play. I was only able to realize this after experimenting in a browser version of JavaScript Playground, where I used `console.log()` to print elements of the `pattern` array and consequently found my error. From there, I updated the random number generator to be `Math.floor(Math.random() * n)` to generate random integers from `[1, 2, 3, 4, 5]` for my 5 buttons.
 
 Interests for Future Projects:
-    > I'd like to learn more about the interconnectivity of each of the components -- in other words, I'd like to learn more about how the `.js`, `.html`, and `.css` files are all linked together, and what other possible combinations there are. So far in my university experience, I've primarily worked with Python, so I would be interested to learn how I can connect and adapt my Python code to function on a website. 
-    > 
-    > Another thing I would like to know more about is what the whole web development process looks like when not done through a tool such as Glitch. As someone who wants to create a portfolio via a personal website, I definitely think I will look more into how to deploy my own website on a server independent of Glitch's, for example.
+
+   > I'd like to learn more about the interconnectivity of each of the components -- in other words, I'd like to learn more about how the `.js`, `.html`, and `.css` files are all linked together, and what other possible combinations there are. So far in my university experience, I've primarily worked with Python, so I would be interested to learn how I can connect and adapt my Python code to function on a website. 
+    
+   > Another thing I would like to know more about is what the whole web development process looks like when not done through a tool such as Glitch. As someone who wants to create a portfolio via a personal website, I definitely think I will look more into how to deploy my own website on a server independent of Glitch's, for example.
 
 Additional Features (for the Future!):
-    >If I had more time to work on this project, I would spend it adding additional features -- in particular, I want to add a "menu bar" of additional game modes. For example, in the existing version of the game, I would add a line of buttons above the "Start" button that would allow the player to choose to play the game with some of the optional features like more buttons, time limit, etc. If I were to implement this, I would make the player be able to "stack" game modes on top of each other (so the player could select all game modes at the same time for the ultimate hard mode version of the game) and also to deselect unwanted game modes or to reset to the base game altogether.
+
+   > If I had more time to work on this project, I would spend it adding additional features -- in particular, I want to add a "menu bar" of additional game modes. For example, in the existing version of the game, I would add a line of buttons above the "Start" button that would allow the player to choose to play the game with some of the optional features like more buttons, time limit, etc. If I were to implement this, I would make the player be able to "stack" game modes on top of each other (so the player could select all game modes at the same time for the ultimate hard mode version of the game) and also to deselect unwanted game modes or to reset to the base game altogether.
 
 
 
