@@ -1,9 +1,5 @@
 **Memory Game** is a Light & Sound Memory game.
 
-Time spent: 4 hours spent in total
-
-Link to project: [Memory Game (Sihua Cai)](https://glitch.com/edit/#!/occipital-determined-cerise?path=script.js%3A14%3A0)
-
 Functionality
 
 The following functionality has been implemented: 
@@ -24,7 +20,7 @@ The following functionality has been implemented:
 I would like to eventually implement the following features:
 
 - [ ] Words of encouragement for the player -- scrolling text across the screen?  
-- [ ] Game mode menu bar 
+- [ ] Game mode menu bar where player can select and mix-and-match game modes
 
 ## Video Walkthrough (GIF)
 
